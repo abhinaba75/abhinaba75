@@ -46,22 +46,6 @@ abhinaba = {
 ```
 ---
 
-## 🔥 ASCII Fire — Live Demo
-
-<p align="center">
-  <a href="https://abhinaba.pp.ua">
-    <img src="fire_preview.gif" alt="ASCII Fire Animation" width="648"/>
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://abhinaba.pp.ua">
-    <img src="https://img.shields.io/badge/▶_Live_Interactive_Fire-FF5500?style=for-the-badge&logo=firefoxbrowser&logoColor=white" alt="Live Fire Demo"/>
-  </a>
-</p>
-
----
-
 ## 📊 GitHub Stats
 
 <p align="center">

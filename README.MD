@@ -57,7 +57,22 @@ abhinaba = {
     alt="GitHub contribution snake" />
 </picture>
 
-> ⚙️ Enable snake: create `.github/workflows/snake.yml` → [Platane/snk docs](https://github.com/Platane/snk)
+
+---
+
+## 🔥 ASCII Fire — Live Demo
+
+<p align="center">
+  <a href="https://abhinaba.pp.ua">
+    <img src="fire_preview.gif" alt="ASCII Fire Animation" width="648"/>
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://abhinaba.pp.ua">
+    <img src="https://img.shields.io/badge/▶_Live_Interactive_Fire-FF5500?style=for-the-badge&logo=firefoxbrowser&logoColor=white" alt="Live Fire Demo"/>
+  </a>
+</p>
 
 ---
 
@@ -128,7 +143,7 @@ abhinaba = {
 ## Fun Facts
 
 - **National Champion Poet** — yes, seriously
-- Obsessed with AI models - Contributing in GLM ecosystem
+- Obsessed with AI models - Contributing to GLM ecosystem
 - Best code gets written past midnight
 
 ---

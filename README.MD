@@ -26,22 +26,22 @@
 
 ---
 
-## 🧠 About Me
+## About Me
 
 ```python
 abhinaba = {
     "name"      : "Abhinaba Das",
     "age"       : 18,
-    "location"  : "Kolkata, West Bengal 🇮🇳",
-    "title"     : ["National Champion Poet ✍️", "CS Student", "Full-Stack Dev"],
+    "location"  : "Asansol, West Bengal 🇮🇳",
+    "title"     : ["National Champion Poet ", "CS Student", "Full-Stack Dev"],
     "education" : "CBSE Class 12 → JEE → CS Undergrad",
     "currently" : [
-        "Building crypto payment systems 💸",
-        "Prepping for JEE Advanced 📚",
-        "Exploring AI models & LLMs 🤖",
+        "Building crypto payment systems ",
+        "Prepping for JEE Advanced ",
+        "Exploring AI models & LLMs",
     ],
     "ask_me_about" : ["Web Dev", "Blockchain/Crypto", "AI", "Poetry", "Gaming"],
-    "fun_fact"     : "I debug code at 2AM and write poetry at 3AM 🌙",
+    "fun_fact"     : "I debug code at 2AM and write poetry at 3AM ",
 }
 ```
 
@@ -80,17 +80,7 @@ abhinaba = {
 
 ---
 
-## 🏆 Trophies
-
-<p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=abhinaba75&theme=darkhub&column=7&margin-w=8&margin-h=8&no-bg=true" alt="Trophies" />
-  </a>
-</p>
-
----
-
-## 🛠️ Tech Stack
+## Tech Stack
 
 **Languages**
 
@@ -130,24 +120,20 @@ abhinaba = {
 
 | Project | Stack | Status |
 |---|---|---|
-| 💸 **Crypto Payment Gateway** | Node.js · NOWPayments API · Web3 | 🔨 Active |
-| 🔥 **ASCII Fire Animation** | Vanilla JS · Canvas API | ✅ Done |
-| 🌐 **Portfolio + Pay Page** | HTML · CSS · JS · Node | 🔨 Active |
+|**Crypto Payment Gateway** | Node.js · NOWPayments API · Web3 | 🔨 Active |
+|**Portfolio + Pay Page** | HTML · CSS · JS · Node | 🔨 Active |
 
 ---
 
-## ⚡ Fun Facts
+## Fun Facts
 
-- 🏅 **National Champion Poet** — yes, seriously
-- 🎮 Gamer with RX 6500 XT + i5-12400F rig in Kolkata
-- 🤖 Obsessed with AI models — GPT, Claude, Gemini, you name it
-- 🌙 Best code gets written past midnight
-- 🏏 Cricket fan (T20 World Cup stan)
-- 📝 Writes poetry AND JavaScript — the duality of man
+- **National Champion Poet** — yes, seriously
+- Obsessed with AI models - Contributing in GLM ecosystem
+- Best code gets written past midnight
 
 ---
 
-## 🌐 Connect With Me
+## Connect With Me
 
 <p align="center">
   <a href="https://github.com/abhinaba75">
@@ -174,5 +160,5 @@ abhinaba = {
 ---
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Bitcount+Grid+Double&size=14&duration=4000&pause=1000&color=FF5500&center=true&vCenter=true&width=600&lines=Thanks+for+visiting+my+profile+%F0%9F%94%A5;Star+a+repo+if+you+like+what+you+see+%E2%AD%90;Built+with+%E2%9D%A4%EF%B8%8F+from+Kolkata%2C+India" alt="Footer" />
+  <img src="https://readme-typing-svg.demolab.com?font=Bitcount+Grid+Double&size=14&duration=4000&pause=1000&color=FF5500&center=true&vCenter=true&width=600&lines=Thanks+for+visiting+my+profile+%F0%9F%94%A5;Star+a+repo+if+you+like+what+you+see+%E2%AD%90;Built+with+%E2%9D%A4%EF%B8%8F+from+Asansol%2C+India" alt="Footer" />
 </p>

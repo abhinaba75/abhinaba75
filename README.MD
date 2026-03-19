@@ -1,9 +1,178 @@
+<!-- ================================================================
+     ABHINABA DAS — GitHub Profile README
+     ================================================================ -->
+
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)"
-      srcset="https://readme-typing-svg.demolab.com?font=Bitcount+Grid+Double&weight=700&size=24&pause=800&color=FF5500&center=true&vCenter=true&width=600&height=60&lines=Welcome+to+Abhinaba's+Repo!;National+Champion+Poet+%F0%9F%94%A5;CS+Student+%7C+Builder+%7C+AI+Nerd" />
+      srcset="https://readme-typing-svg.demolab.com?font=Bitcount+Grid+Double&weight=700&size=24&pause=800&color=FF5500&center=true&vCenter=true&width=600&height=60&lines=Welcome+to+Abhinaba%27s+Repo!;National+Champion+Poet+%F0%9F%94%A5;CS+Student+%7C+Builder+%7C+AI+Nerd" />
     <img
-      src="https://readme-typing-svg.demolab.com?font=Bitcount+Grid+Double&weight=700&size=24&pause=800&color=CC3300&center=true&vCenter=true&width=600&height=60&lines=Welcome+to+Abhinaba's+Repo!;National+Champion+Poet+%F0%9F%94%A5;CS+Student+%7C+Builder+%7C+AI+Nerd"
+      src="https://readme-typing-svg.demolab.com?font=Bitcount+Grid+Double&weight=700&size=24&pause=800&color=CC3300&center=true&vCenter=true&width=600&height=60&lines=Welcome+to+Abhinaba%27s+Repo!;National+Champion+Poet+%F0%9F%94%A5;CS+Student+%7C+Builder+%7C+AI+Nerd"
       alt="Typing SVG" />
   </picture>
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=abhinaba75&color=FF5500&style=flat-square&label=Profile+Views" />
+  &nbsp;
+  <a href="https://paytoabhinaba.pp.ua">
+    <img src="https://img.shields.io/badge/paytoabhinaba.pp.ua-389%2B_views-FF5500?style=flat-square&logo=firefox&logoColor=white" alt="paytoabhinaba views"/>
+  </a>
+  &nbsp;
+  <a href="https://abhinaba.pp.ua">
+    <img src="https://img.shields.io/badge/abhinaba.pp.ua-422%2B_views-CC3300?style=flat-square&logo=firefox&logoColor=white" alt="abhinaba views"/>
+  </a>
+</p>
+
+---
+
+## 🧠 About Me
+
+```python
+abhinaba = {
+    "name"      : "Abhinaba Das",
+    "age"       : 18,
+    "location"  : "Kolkata, West Bengal 🇮🇳",
+    "title"     : ["National Champion Poet ✍️", "CS Student", "Full-Stack Dev"],
+    "education" : "CBSE Class 12 → JEE → CS Undergrad",
+    "currently" : [
+        "Building crypto payment systems 💸",
+        "Prepping for JEE Advanced 📚",
+        "Exploring AI models & LLMs 🤖",
+    ],
+    "ask_me_about" : ["Web Dev", "Blockchain/Crypto", "AI", "Poetry", "Gaming"],
+    "fun_fact"     : "I debug code at 2AM and write poetry at 3AM 🌙",
+}
+```
+
+---
+
+## 🐍 My Contributions Get Eaten Alive
+
+<picture>
+  <source media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/abhinaba75/abhinaba75/output/github-snake-dark.svg" />
+  <img
+    src="https://raw.githubusercontent.com/abhinaba75/abhinaba75/output/github-snake.svg"
+    alt="GitHub contribution snake" />
+</picture>
+
+> ⚙️ Enable snake: create `.github/workflows/snake.yml` → [Platane/snk docs](https://github.com/Platane/snk)
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img height="180em"
+    src="https://github-readme-stats.vercel.app/api?username=abhinaba75&show_icons=true&theme=dark&bg_color=0d0d0d&title_color=FF5500&icon_color=FF5500&text_color=cccccc&border_color=FF5500&count_private=true"
+    alt="GitHub Stats" />
+  <img height="180em"
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=abhinaba75&layout=compact&theme=dark&bg_color=0d0d0d&title_color=FF5500&text_color=cccccc&border_color=FF5500&langs_count=8"
+    alt="Top Languages" />
+</p>
+
+<p align="center">
+  <a href="https://git.io/streak-stats">
+    <img src="https://streak-stats.demolab.com?user=abhinaba75&theme=dark&background=0d0d0d&ring=FF5500&fire=FF5500&currStreakLabel=FF5500&sideLabels=cccccc&dates=888888&border=FF5500" alt="Streak" />
+  </a>
+</p>
+
+---
+
+## 🏆 Trophies
+
+<p align="center">
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=abhinaba75&theme=darkhub&column=7&margin-w=8&margin-h=8&no-bg=true" alt="Trophies" />
+  </a>
+</p>
+
+---
+
+## 🛠️ Tech Stack
+
+**Languages**
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+
+**Frameworks & Runtime**
+
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+
+**Tools & Platforms**
+
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![Windows 11](https://img.shields.io/badge/Windows%2011-0078D4?style=for-the-badge&logo=windows11&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Tailscale](https://img.shields.io/badge/Tailscale-242424?style=for-the-badge&logo=tailscale&logoColor=white)
+
+**Blockchain & Payments**
+
+![Web3](https://img.shields.io/badge/Web3-F16822?style=for-the-badge&logo=web3dotjs&logoColor=white)
+![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white)
+![NOWPayments](https://img.shields.io/badge/NOWPayments-00C26F?style=for-the-badge&logo=bitcoin&logoColor=white)
+![Razorpay](https://img.shields.io/badge/Razorpay-02042B?style=for-the-badge&logo=razorpay&logoColor=3395FF)
+
+---
+
+## 🚀 What I'm Building
+
+| Project | Stack | Status |
+|---|---|---|
+| 💸 **Crypto Payment Gateway** | Node.js · NOWPayments API · Web3 | 🔨 Active |
+| 🔥 **ASCII Fire Animation** | Vanilla JS · Canvas API | ✅ Done |
+| 🌐 **Portfolio + Pay Page** | HTML · CSS · JS · Node | 🔨 Active |
+
+---
+
+## ⚡ Fun Facts
+
+- 🏅 **National Champion Poet** — yes, seriously
+- 🎮 Gamer with RX 6500 XT + i5-12400F rig in Kolkata
+- 🤖 Obsessed with AI models — GPT, Claude, Gemini, you name it
+- 🌙 Best code gets written past midnight
+- 🏏 Cricket fan (T20 World Cup stan)
+- 📝 Writes poetry AND JavaScript — the duality of man
+
+---
+
+## 🌐 Connect With Me
+
+<p align="center">
+  <a href="https://github.com/abhinaba75">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="https://discord.com/users/e075">
+    <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="https://instagram.com/abhinaba.75">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="mailto:abhinaba@duck.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  &nbsp;
+  <a href="https://abhinaba.pp.ua">
+    <img src="https://img.shields.io/badge/Website-FF5500?style=for-the-badge&logo=firefoxbrowser&logoColor=white" />
+  </a>
+</p>
+
+---
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Bitcount+Grid+Double&size=14&duration=4000&pause=1000&color=FF5500&center=true&vCenter=true&width=600&lines=Thanks+for+visiting+my+profile+%F0%9F%94%A5;Star+a+repo+if+you+like+what+you+see+%E2%AD%90;Built+with+%E2%9D%A4%EF%B8%8F+from+Kolkata%2C+India" alt="Footer" />
 </p>

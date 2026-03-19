@@ -44,20 +44,6 @@ abhinaba = {
     "fun_fact"     : "I debug code at 2AM and write poetry at 3AM ",
 }
 ```
-
----
-
-## 🐍 My Contributions Get Eaten Alive
-
-<picture>
-  <source media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/abhinaba75/abhinaba75/output/github-snake-dark.svg" />
-  <img
-    src="https://raw.githubusercontent.com/abhinaba75/abhinaba75/output/github-snake.svg"
-    alt="GitHub contribution snake" />
-</picture>
-
-
 ---
 
 ## 🔥 ASCII Fire — Live Demo

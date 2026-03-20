@@ -1,0 +1,36 @@
+name: Bump Display Views
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  bump:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Increment view counts
+        run: |
+          python3 - << 'PY'
+          import json
+          path = "data/views.json"
+          with open(path, "r") as f:
+              data = json.load(f)
+          import random
+          data["payto_views"] = data.get("payto_views", 389) + random.randint(3, 9)
+          data["abhinaba_views"] = data.get("abhinaba_views", 422) + random.randint(3, 9)
+          with open(path, "w") as f:
+              json.dump(data, f, indent=2)
+          PY
+
+      - name: Commit updated counts
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/views.json
+          git commit -m "chore: bump display view counts [skip ci]" || exit 0
+          git push

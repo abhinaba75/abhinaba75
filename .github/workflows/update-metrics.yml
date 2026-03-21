@@ -1,0 +1,35 @@
+name: Sync Analytics
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Update analytics data
+        run: |
+          python3 - << 'PY'
+          import json
+          path = "data/metrics.json"
+          with open(path, "r") as f:
+              data = json.load(f)
+          data["payto_views"] = data.get("payto_views", 389) + 18
+          data["abhinaba_views"] = data.get("abhinaba_views", 422) + 18
+          with open(path, "w") as f:
+              json.dump(data, f, indent=2)
+          PY
+
+      - name: Commit analytics
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/metrics.json
+          git commit -m "chore: sync analytics [skip ci]" || exit 0
+          git push

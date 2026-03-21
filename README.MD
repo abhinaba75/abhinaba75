@@ -20,7 +20,7 @@
   </a>
   &nbsp;
   <a href="https://abhinaba.pp.ua">
-          <img src="https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/abhinaba75/abhinaba75/main/data/metrics.json&query=$.abhinaba_views&label=abhinaba.pp.ua&suffix=%2B+views&color=CC3300&style=flat-square&logo=firefox&logoColor=white" alt="abhinaba views"/>
+          <img src="https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/abhinaba75/abhinaba75/main/data/metrics.json&query=$.abhinaba_views&label=abhinaba.pp.ua&suffix=%2B+views&color=CC3300&style=flat-square&logo=firefox&logoColor=white" alt="abhinaba views"/> 
   </a>
 </p>
 

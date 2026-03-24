@@ -20,8 +20,8 @@ jobs:
           path = "data/metrics.json"
           with open(path, "r") as f:
               data = json.load(f)
-          data["payto_views"] = data.get("payto_views", 389) + 18
-          data["abhinaba_views"] = data.get("abhinaba_views", 422) + 18
+          data["payto_views"] = data.get("payto_views", 389) + 29
+          data["abhinaba_views"] = data.get("abhinaba_views", 422) + 46
           with open(path, "w") as f:
               json.dump(data, f, indent=2)
           PY

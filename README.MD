@@ -45,15 +45,6 @@ abhinaba = {
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img height="180em"
-    src="https://github-readme-stats.vercel.app/api?username=abhinaba75&show_icons=true&theme=dark&bg_color=0d0d0d&title_color=FF5500&icon_color=FF5500&text_color=cccccc&border_color=FF5500&count_private=true"
-    alt="GitHub Stats" />
-  <img height="180em"
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=abhinaba75&layout=compact&theme=dark&bg_color=0d0d0d&title_color=FF5500&text_color=cccccc&border_color=FF5500&langs_count=8"
-    alt="Top Languages" />
-</p>
-
-<p align="center">
   <a href="https://git.io/streak-stats">
     <img src="https://streak-stats.demolab.com?user=abhinaba75&theme=dark&background=0d0d0d&ring=FF5500&fire=FF5500&currStreakLabel=FF5500&sideLabels=cccccc&dates=888888&border=FF5500" alt="Streak" />
   </a>

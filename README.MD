@@ -83,7 +83,6 @@ abhinaba = {
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 ![Windows 11](https://img.shields.io/badge/Windows%2011-0078D4?style=for-the-badge&logo=windows11&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Tailscale](https://img.shields.io/badge/Tailscale-242424?style=for-the-badge&logo=tailscale&logoColor=white)
@@ -101,19 +100,20 @@ abhinaba = {
 
 ---
 
-## 🚀 What I'm Building
+## 🚀 What I’m Building
 
-| Project | Stack | Status |
-|---|---|---|
-|**Crypto Payment Gateway** | Node.js · NOWPayments API · Web3 | 🔨 Active |
-|**Portfolio + Pay Page** | HTML · CSS · JS · Node | 🔨 Active |
+| Project | Stack | Status | Site Visibility |
+|---|---|---|---|
+|**Crypto and Fiat Payment Gateway** | Node.js · NOWPayments API · Web3 · RazorPay | 🔨 Active | Public |
+|**Personal Site** | HTML · CSS · JS · Node · TypeScript · React | 🔨 Active | Public |
+|**Email App with Cloudflare, Resend and Groq API Integration** | HTML · CSS · JS · Node · TypeScript · React | 🔨 Active | Private |
 
 ---
 
 ## Fun Facts
 
 - **National Champion Poet** — yes, seriously
-- Obsessed with AI models - Contributing to GLM ecosystem
+- Obsessed with AI models’ working dynamics - Contributing to GLM ecosystem
 - Best code gets written past midnight
 
 ---

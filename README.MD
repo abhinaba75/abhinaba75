@@ -1,7 +1,3 @@
-<!-- ================================================================
-     ABHINABA DAS — GitHub Profile README
-     ================================================================ -->
-
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)"
@@ -91,6 +87,8 @@ abhinaba = {
 ![Windows 11](https://img.shields.io/badge/Windows%2011-0078D4?style=for-the-badge&logo=windows11&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Tailscale](https://img.shields.io/badge/Tailscale-242424?style=for-the-badge&logo=tailscale&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+![Linear](https://img.shields.io/badge/Linear-5E6AD2?style=for-the-badge&logo=linear&logoColor=white)
 
 **Blockchain & Payments**
 

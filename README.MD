@@ -11,7 +11,7 @@
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=abhinaba75&color=FF5500&style=flat-square&label=Profile+Views" />
   &nbsp;
-  <a href="https://paytoitsabhinaba.in">
+  <a href="https://pay.itsabhinaba.in">
           <img src="https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/abhinaba75/abhinaba75/main/data/metrics.json&query=$.payto_views&label=paytoitsabhinaba.in&suffix=%2B+views&color=FF5500&style=flat-square&logo=firefox&logoColor=white" alt="paytoabhinaba views"/>
   </a>
   &nbsp;

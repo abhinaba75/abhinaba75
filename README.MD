@@ -82,13 +82,13 @@ abhinaba = {
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
 
-**Blockchain & Payments**
+**Blockchain & Payments Integrations**
 
 ![Web3](https://img.shields.io/badge/Web3-F16822?style=for-the-badge&logo=web3dotjs&logoColor=white)
 ![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white)
 ![NOWPayments](https://img.shields.io/badge/NOWPayments-00C26F?style=for-the-badge&logo=bitcoin&logoColor=white)
 ![Razorpay](https://img.shields.io/badge/Razorpay-02042B?style=for-the-badge&logo=razorpay&logoColor=3395FF)
-
+![PayPal](https://img.shields.io/badge/PayPal-FF5500?style=for-the-badge&logo=paypal&logoColor=white)
 ---
 
 ## 🚀 What I’m Building

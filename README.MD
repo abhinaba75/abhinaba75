@@ -88,7 +88,7 @@ abhinaba = {
 ![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white)
 ![NOWPayments](https://img.shields.io/badge/NOWPayments-00C26F?style=for-the-badge&logo=bitcoin&logoColor=white)
 ![Razorpay](https://img.shields.io/badge/Razorpay-02042B?style=for-the-badge&logo=razorpay&logoColor=3395FF)
-![PayPal](https://img.shields.io/badge/PayPal-FFFFFF?style=for-the-badge&logo=paypal&logoColor=white)
+![PayPal](https://img.shields.io/badge/PayPal-FFFFFF?style=for-the-badge&logo=paypal&logoColor=blue)
 ---
 
 ## 🚀 What I’m Building

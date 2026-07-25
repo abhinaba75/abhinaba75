@@ -1,0 +1,33 @@
+name: Sync cache
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Update synced_at timestamp
+        run: |
+          python3 - << 'PY'
+          import datetime, json, os
+          path = ".github/sync-cache.json"
+          stamp = datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds")
+          os.makedirs(os.path.dirname(path), exist_ok=True)
+          with open(path, "w") as f:
+              json.dump({"version": 1, "synced_at": stamp}, f)
+              f.write("\n")
+          print(f"Sync stamp: {stamp}")
+          PY
+
+      - name: Commit and Push
+        uses: stefanzweifel/git-auto-commit-action@v7
+        with:
+          commit_message: "chore: sync cache [skip ci]"
+          file_pattern: .github/sync-cache.json

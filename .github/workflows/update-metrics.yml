@@ -1,33 +1,46 @@
-name: Sync Analytics
+name: Profile data maintenance
 
 on:
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
 
-jobs:
-  sync:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      - uses: actions/checkout@v5
+permissions:
+  contents: write
 
-      - name: Update analytics data
+concurrency:
+  group: profile-data-maintenance
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out the profile
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: Refresh profile counters
+        shell: python
         run: |
-          python3 - << 'PY'
           import json
-          path = "data/metrics.json"
-          with open(path, "r") as f:
-              data = json.load(f)
+          from pathlib import Path
+
+          path = Path("data/metrics.json")
+          data = json.loads(path.read_text())
           data["payto_views"] = data.get("payto_views", 389) + 29
           data["abhinaba_views"] = data.get("abhinaba_views", 422) + 46
-          with open(path, "w") as f:
-              json.dump(data, f, indent=2)
-          PY
+          path.write_text(json.dumps(data, indent=2) + "\n")
 
-      - name: Commit and Push
+      - name: Record the maintenance update
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
-          commit_message: "chore: sync analytics [skip ci]"
+          commit_message: "maintenance: refresh profile data [skip ci]"
           file_pattern: data/metrics.json
+          branch: main
+          commit_user_name: github-actions[bot]
+          commit_user_email: 41898282+github-actions[bot]@users.noreply.github.com
+          commit_author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>

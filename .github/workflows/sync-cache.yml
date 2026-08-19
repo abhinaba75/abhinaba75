@@ -1,33 +1,49 @@
-name: Sync cache
+name: Repository cache maintenance
 
 on:
   schedule:
     - cron: "0 */6 * * *"
   workflow_dispatch:
 
+permissions:
+  contents: write
+
+concurrency:
+  group: repository-cache-maintenance
+  cancel-in-progress: false
+
 jobs:
-  sync:
+  update:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
+    timeout-minutes: 5
     steps:
-      - uses: actions/checkout@v5
+      - name: Check out the profile
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
 
-      - name: Update synced_at timestamp
+      - name: Refresh cache marker
+        shell: python
         run: |
-          python3 - << 'PY'
-          import datetime, json, os
-          path = ".github/sync-cache.json"
-          stamp = datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds")
-          os.makedirs(os.path.dirname(path), exist_ok=True)
-          with open(path, "w") as f:
-              json.dump({"version": 1, "synced_at": stamp}, f)
-              f.write("\n")
-          print(f"Sync stamp: {stamp}")
-          PY
+          import datetime
+          import json
+          from pathlib import Path
 
-      - name: Commit and Push
+          path = Path(".github/sync-cache.json")
+          path.parent.mkdir(parents=True, exist_ok=True)
+          payload = {
+              "version": 1,
+              "synced_at": datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds"),
+          }
+          path.write_text(json.dumps(payload) + "\n")
+
+      - name: Record the maintenance update
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
-          commit_message: "chore: sync cache [skip ci]"
+          commit_message: "maintenance: refresh repository cache [skip ci]"
           file_pattern: .github/sync-cache.json
+          branch: main
+          commit_user_name: github-actions[bot]
+          commit_user_email: 41898282+github-actions[bot]@users.noreply.github.com
+          commit_author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>

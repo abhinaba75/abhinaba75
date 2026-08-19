@@ -1,0 +1,14 @@
+{
+  "name": "abhinaba75-profile",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "preview": "node scripts/serve.js",
+    "start": "node scripts/serve.js"
+  },
+  "devDependencies": {
+    "marked": "^18.0.10"
+  }
+}

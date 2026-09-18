@@ -33,7 +33,6 @@ abhinaba = {
     "education" : "CBSE Class 12 → JEE → CS Undergrad",
     "currently" : [
         "Building crypto payment systems ",
-        "Prepping for JEE Advanced ",
         "Exploring AI models & LLMs",
     ],
     "ask_me_about" : ["Web Dev", "Blockchain/Crypto", "AI", "Poetry", "Gaming"],
